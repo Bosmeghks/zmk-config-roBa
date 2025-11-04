@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &bt BT_PRV     &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp ESC            &bt BT_NXT     &kp N      &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &lt 1 ENTER  &kp MINUS          &kp LC(EQUAL)  &lt 3 DEL                             &lt 4 RCTRL
+&kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y         &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &bt BT_PRV     &kp H         &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp ESC            &bt BT_NXT     &kp N         &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &lt 1 ENTER  &kp MINUS          &kp LC(EQUAL)  &lt 3 K_BACK                             &lt 5 RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp C_MUTE         &kp ENTER             &mkp LCLK  &msc MOVE_Y(20)  &mkp RCLK
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &trans     &msc MOVE_X(20)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &trans     &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                               &trans
+&trans  &trans  &trans  &trans  &trans                         &kp C_MUTE         &kp ENTER             &mkp LCLK  &lt 5 ENTER  &mkp RCLK
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &trans     &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &trans     &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(C)  &kp LG(V)                                                        &trans
             >;
         };
 
